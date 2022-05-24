@@ -1,0 +1,42 @@
+
+.signup{
+    width: 100%;
+    height: auto;
+    background-color: rgb(235, 239, 244);
+    border-radius: 10px;
+}
+.signup-content {
+    display: flex;
+}
+.signup-content .signup-form{
+    padding: 1rem;
+}
+
+.signup-content .signup-form h2{
+    text-align: left;
+    color: #325bff;
+}
+.signup-content .signup-form label i{
+    color:#325bff;
+}
+.signup-content .signup-form input{
+    margin: 1rem 0 0 1rem;
+    width: 300px;
+
+}
+
+.signup-content .signup-form  .form-btn input{
+    margin-left: 2rem;
+    width: 100px;
+    height: 2rem;
+    border-radius: 5px;
+    background: #325bff;
+    color: aliceblue;
+    border: none;
+}
+.signup-content .signup-images img{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    right: 10rem;
+}
