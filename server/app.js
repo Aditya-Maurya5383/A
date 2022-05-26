@@ -13,17 +13,17 @@ app.use(require('./router/auth'));
 const PORT = process.env.PORT;
 
 // middleware
-const middleware = (req, res, next) =>{
-    console.log(`hello middleware`)
-    next();
-}
+// const middleware = (req, res, next) =>{
+//     console.log(`hello middleware`)
+//     next();
+// }
 
 
-app.get('/contact', middleware,(req, res) => {
+app.get('/test', (req, res) => {
     res.send(`hello contact`)
 })
 
 
-app.listen(3000, () =>{
+app.listen(8000, () =>{
     console.log(`server is running at port no ${PORT}`)
 })

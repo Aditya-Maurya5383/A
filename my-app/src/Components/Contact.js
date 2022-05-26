@@ -18,7 +18,7 @@ const Contact = () => {
       e.preventDefault();
       const {name, email, phone, work, password, cpassword} = user;
 
-      const res = await fetch("/contact",{
+      const res = await fetch("/register",{
         method: "POST",
         headers:{
           "Content-Type" : "application/json"
@@ -123,7 +123,7 @@ const Contact = () => {
                     name="cpassword"
                     id="cpassword"
                     placeholder="Your confirm password"
-                    value={user.password}
+                    value={user.cpassword}
                     onChange={handleInputs}
                   />
                 </div>
