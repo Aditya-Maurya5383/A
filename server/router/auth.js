@@ -52,6 +52,19 @@ router.post('/register',async  (req, res) =>{
         console.log(err);
     }
 
+    // LOGIN ROUTE
+    router.post('/signin', async (req, res) => {
+        try{
+            const {email, password} = req.body; 
+            if(!email || !password){
+                return res.status(400).json({error:"Please filled the data"})
+            }
+            
+
+        }catch (err){
+            console.log(err)
+        }
+    })
 
 });
 

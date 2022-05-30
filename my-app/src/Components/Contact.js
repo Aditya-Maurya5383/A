@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import img from "../img/image.png";
+import { NavLink } from "react-router-dom";
+
 const Contact = () => {
 
     const [user, setUser] =useState({
@@ -135,6 +137,15 @@ const Contact = () => {
                     className="register"
                     onClick={PostData}
                   />
+                  <button>
+                    <NavLink
+                      to="/login"
+                      className="signup-image-link"
+                      style={{ color: "#fff"}}
+                    >
+                      I'm already rigister
+                    </NavLink>
+                  </button>
                 </div>
               </form>
             </div>

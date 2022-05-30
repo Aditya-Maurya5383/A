@@ -1,4 +1,3 @@
-
 .signup{
     width: 100%;
     height: auto;
@@ -34,9 +33,85 @@
     color: aliceblue;
     border: none;
 }
+.signup-content .signup-form  .form-btn button{
+    
+    margin-left: 1rem;
+    width: 180px;
+    height: 2rem;
+    border-radius: 5px;
+    background: #325bff;
+    color: aliceblue;
+    border: none; 
+    
+    
+}
 .signup-content .signup-images img{
     width: 600px;
     height: 400px;
     position: absolute;
+    right: 10rem;
+}
+
+
+/* LOGIN CSS */
+
+
+.login{
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+    width: 78%;
+    height: 70vh;
+    background-color: rgb(235, 239, 244);
+    border-radius: 10px;
+}
+.login-content {
+    display: flex;
+}
+.login-content .login-box{
+    padding: 1rem;
+    
+}
+
+.login-content .login-box h2{
+    text-align: left;
+    color: #325bff;
+}
+.login-content .login-box label i{
+    color:#325bff;
+}
+.login-content .login-box input{
+    margin: 1rem 0 0 1rem;
+    width: 300px;
+
+}
+
+.login-content .login-box  .form-btn input{
+    margin-left: 2rem;
+    width: 100px;
+    height: 2rem;
+    border-radius: 5px;
+    background: #325bff;
+    color: aliceblue;
+    border: none;
+}
+.login-content .login-box  .form-btn button{
+    margin-left: 1rem;
+    width: 180px;
+    height: 2rem;
+    border-radius: 5px;
+    background: #325bff;
+    color: aliceblue;
+    border: none; 
+    
+    
+}
+
+
+
+.login-content .login-images img{   
+    width: 350px;
+    position: absolute;
+    top: 1rem;
     right: 10rem;
 }

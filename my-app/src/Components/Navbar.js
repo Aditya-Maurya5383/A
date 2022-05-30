@@ -35,14 +35,15 @@ export default function Navbar(props) {
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
-                  Gallery
-                </a>
-              </li>
+             
               <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to="/contact">
-                  Contact
+                  Sign Up
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to="/login">
+                  Login
                 </Link>
               </li>
             </ul>

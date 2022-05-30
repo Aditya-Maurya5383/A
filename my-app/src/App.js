@@ -7,6 +7,7 @@ import React, { useState } from "react";
 import Alert from "./Components/Alert";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Contact from "./Components/Contact";
+import Login from "./Components/Login";
 
 function App() {
   const [mode, setMode] = useState("light");
@@ -38,6 +39,7 @@ function App() {
             <Route exact path="/"  element={ <TextForm heading="Enter The Text To Analyze" mode={mode} />}/>
             <Route path="/about" element = {<About/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/login" element={<Login/>}/>
              
             
           </Routes>
