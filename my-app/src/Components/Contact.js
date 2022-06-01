@@ -37,6 +37,7 @@ const Contact = () => {
         window.alert("Registration Successful");
         console.log("Registration Successful")
       }
+      window.location.reload();
     }
 
   return (
